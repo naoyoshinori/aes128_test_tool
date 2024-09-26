@@ -25,7 +25,7 @@ void test_aes128(TestCase testcase)
             test_aes128_decrypt(testcase);
             break;
         default:
-            Console.WriteLine("type encrypt or decrypt :" + testcase.mode);
+            Console.WriteLine("mode encrypt or decrypt :" + testcase.mode);
             break;
     }
 }
@@ -48,7 +48,7 @@ void test_aes128_encrypt(TestCase testcase)
             aes.IV = [.. testcase.ini_vector];
             break;
         default:
-            Console.WriteLine("mode ECB or CBC: " + testcase.type);
+            Console.WriteLine("type ECB or CBC: " + testcase.type);
             return;
     }
 
@@ -85,7 +85,7 @@ void test_aes128_decrypt(TestCase testcase)
             aes.Mode = CipherMode.CBC;
             break;
         default:
-            Console.WriteLine("mode ECB or CBC: " + testcase.type);
+            Console.WriteLine("type ECB or CBC: " + testcase.type);
             return;
     }
 

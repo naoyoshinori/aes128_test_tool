@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kZaGzLO39q4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\naoyuki-yoshinori\\Documents\\Projects\\aes128_test_tool\\aes128_test_tool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naoyuki-yoshinori\\.nuget\\packages\\tomlyn\\0.17.0\\tomlyn.0.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
